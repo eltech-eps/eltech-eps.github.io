@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "a5f84a5efc31c4e9780a8adfb9ab31d7",
-"index.html": "0a60d6f1205c3ebd19d7145693c0b8a7",
-"/": "0a60d6f1205c3ebd19d7145693c0b8a7",
-"main.dart.js": "0cde075522cfef3d50677618180540aa",
+"index.html": "876a2f91405dedc23e17833e8bdfa2ee",
+"/": "876a2f91405dedc23e17833e8bdfa2ee",
+"main.dart.js": "782555ebc727d38a0a52460309682abd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -24,7 +24,6 @@ const RESOURCES = {
 "assets/packages/flutter_auth_buttons/graphics/ms-symbollockup_mssymbol_19.png": "0c29638c7558632a1a5f053d344405ba",
 "assets/packages/flutter_auth_buttons/fonts/Roboto-Medium.ttf": "d08840599e05db7345652d3d417574a9",
 "assets/packages/flutter_auth_buttons/fonts/SF-Pro-Medium.ttf": "8b61dea99518b51d5511dc3963a5537c",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
 "assets/assets/images/eltech_logo.png": "a82a0605e28e200d89b0b1df28eebb88",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
