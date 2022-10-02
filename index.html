@@ -37,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1546257877';
+    var serviceWorkerVersion = '2260920735';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -99,6 +99,30 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+  </script>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
+  import { } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js"
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAyp5nZY02Lfhv6h52qlCGDKXtQNIbXoI0",
+    authDomain: "eltech-ecoa.firebaseapp.com",
+    projectId: "eltech-ecoa",
+    storageBucket: "eltech-ecoa.appspot.com",
+    messagingSenderId: "10614773236",
+    appId: "1:10614773236:web:6c4a3bf96fc38d854555a1",
+    measurementId: "G-N0HFMBLYMJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
   </script>
 </body>
 </html>
